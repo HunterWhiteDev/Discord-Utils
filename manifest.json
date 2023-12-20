@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Custom Discord Utils",
-  "description": "My Custom Discord Utils",
+  "description": "Custom Discord utilities for chromium based browsers",
   "version": "1.0",
   "content_scripts": [
     {
@@ -9,6 +9,5 @@
       "js": ["js/main.js"],
       "matches": ["https://discord.com/channels/*"]
     }
-  ],
-  "permissions": ["storage"]
+  ]
 }
